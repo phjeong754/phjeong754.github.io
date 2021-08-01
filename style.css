@@ -183,6 +183,7 @@ a{
     .navigation{
         position: fixed;
         left: 5vw;
+        right: 5vw;
     }
     .navbar-inverse .navbar-nav>li:hover {
         border-radius: 1px;
