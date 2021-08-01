@@ -137,6 +137,9 @@ a{
     background-color: #00274C;
     border: none;
 }
+.navbar-nav{
+    padding-right: 3vw;
+}
 #navbar {
     top: auto;
     width: auto;
@@ -188,10 +191,10 @@ a{
     .navbar-inverse .navbar-nav>li:hover {
         border-radius: 1px;
     }
+    .navbar-nav{
+        padding-right: 10vw;
+    }
     #navbar li {
         padding:5px;
-    }
-    .wrap{
-        width:100%;
     }
 }
