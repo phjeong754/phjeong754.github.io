@@ -184,6 +184,12 @@ a{
         position: fixed;
         left: 5vw;
     }
+    .navbar-inverse .navbar-nav>li:hover {
+        border-radius: 1px;
+    }
+    #navbar li {
+        padding:5px;
+    }
     .wrap{
         width:100%;
     }
