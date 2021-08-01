@@ -158,12 +158,12 @@ a{
     .section-1{
         border-right: 0px solid #FFCB05;
         position: absolute;
-        height: 70%;
+        height: 700px;
         padding-top: 15vh;
     }
     .section-2{
       position: initial;
-        margin-top: 75vh;
+        margin-top: 750px;
         width: 90%;
         margin-left: 0%;
         padding: 5vw;
