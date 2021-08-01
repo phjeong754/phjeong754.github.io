@@ -1,20 +1,6 @@
 /* global */
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
-.cover {
-  overflow: hidden;
-  position: relative;
-  margin: 0 auto;
-  width: 100vw; height: 15vw;
-}
-
-.cover-image {
-  overflow: hidden;
-  position: absolute;
-  left: 20%
-}
-
-
 body{
     margin: 0;
     padding: 0;
@@ -32,6 +18,25 @@ a{
     text-decoration: none;
 }
 
+#profile{
+    border-radius: 50%;
+    width: 15vw;
+    height: 15vw;
+}
+
+/* cover image */
+.cover {
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+    width: 100vw; height: 15vw;
+}
+
+.cover-image {
+    overflow: hidden;
+    position: absolute;
+    left: 20%
+}
 
 /* section 1 (left section) */
 .section-1{
@@ -145,16 +150,41 @@ a{
 
 /* media queres */
 @media(max-width:780px){
-    .grid-2{
-        grid-template-columns: 1fr;
+    .section-1, .section-2 {
+        float:none;
+        text-align:center;
+        width:100%;
     }
     .section-1{
-        padding:0;
-        padding-top: 5rem;
+        border-right: 0px solid #FFCB05;
+        position: absolute;
+        height: 70%;
+        padding-top: 15vh;
     }
     .section-2{
-        padding: 0;
-        padding-left: 1.5rem;
-        padding-top: 2rem;
+      position: initial;
+        margin-top: 75vh;
+        width: 90%;
+        margin-left: 0%;
+        padding: 5vw;
+        text-align: left;
+    }
+    .cover {
+        visibility: hidden;
+    }
+    .cover-image {
+        visibility: hidden;
+    }
+    #profile{
+        border-radius: 50%;
+        width: 30vw;
+        height: 30vw;
+    }
+    .navigation{
+        position: fixed;
+        left: 5vw;
+    }
+    .wrap{
+        width:100%;
     }
 }
