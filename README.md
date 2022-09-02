@@ -7,5 +7,5 @@ https://phjeong754.github.io
 A personal portfolio website of Haechan Jeong
 created with HTML and CSS
 
-last updated: 08/02/2021
+last updated: 09/02/2022
 
